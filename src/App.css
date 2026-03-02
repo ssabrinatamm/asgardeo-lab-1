@@ -110,10 +110,80 @@ img {
 
 h1 {
   color: darkblue;
-
-  /* align text to left and top of page */
   text-align: center;
   margin-top: 0;
 
 }
- 
+
+h2 {
+  text-align: left;
+}
+
+section {
+  padding: 30px;
+  background-color: #ffffff;
+  margin: 30px 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  text-align: left;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse; 
+  margin: 20px 0;
+}
+
+.employee-table thead th {
+  background-color: #000080; 
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+.employee-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.employee-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+
+/* Horizontal Form Alignment */
+.form-group {
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.form-group label {
+  width: 100px; /* Aligns all inputs in a straight vertical line */
+  font-size: 14px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns content to the left */
+    padding-left: 20px;       /* Adds a bit of breathing room from the edge */
+    margin-top: 30px;
+}
+
+.horizontal-form {
+    width: 100%;
+    max-width: 400px; /* Prevents the inputs from stretching too wide */
+}
+
+.form-group {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+}
+
+.form-group label {
+    width: 100px; /* Fixed width ensures all input boxes start at the same spot */
+    text-align: left;
+}

@@ -1,0 +1,27 @@
+header p {
+    margin: 10;
+}
+
+app-header {
+    background-color: #BF5700;  
+    color: #ffffff;  
+    padding: 20px;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    right:0; 
+    box-sizing: border-box;
+
+    /* for links in nav to have space in between */
+    display: flex;
+    flex-direction: inline;
+    gap: 15px;
+}
+
+header h1 {
+    font-family: 'Arial', sans-serif;
+    margin: 0px 0px 20px;
+    font-size: 60px;
+ }
